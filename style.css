@@ -34,7 +34,7 @@ body {
 .container input {
   padding: 0.5rem;
   border-radius: 15px;
-  font-size: 1.8 rem;
+  font-size: 0.8rem;
   width: 10rem;
   text-align: center;
   border: 1px solid navy;
@@ -52,8 +52,8 @@ body {
   color: white;
   background-color: rgb(51, 58, 91);
 }
-button:hover {
-  background-color: darkblue;
+.container .btn-div button:hover {
+  background-color: navy;
 }
 .btn-div {
   display: flex;
