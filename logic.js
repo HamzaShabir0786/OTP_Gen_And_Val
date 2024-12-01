@@ -10,7 +10,7 @@ function OTP() {
 function valOTP() {
   let getOTP = window.localStorage.getItem("otp");
   if (getOTP === input.value) {
-    window.location.href = "../login/index.html";
+    window.location.href = "./login/index.html";
     alert("your OPT is correct");
   } else {
     alert("OTP is incorrect");
