@@ -33,7 +33,7 @@ body {
 }
 .container input {
   padding: 0.5rem;
-  border-radius: 15px;
+  border-radius: 5px;
   font-size: 0.8rem;
   width: 10rem;
   text-align: center;
@@ -53,7 +53,7 @@ body {
   background-color: rgb(51, 58, 91);
 }
 .container .btn-div button:hover {
-  background-color: navy;
+  background-color: rgb(40, 52, 113);
 }
 .btn-div {
   display: flex;
@@ -61,4 +61,10 @@ body {
   align-items: center;
 
   width: 370px;
+}
+.otp-inner {
+  display: flex;
+}
+strong {
+  margin-top: 2px;
 }

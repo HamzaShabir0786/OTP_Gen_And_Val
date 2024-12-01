@@ -8,8 +8,13 @@
   </head>
   <body>
     <div class="container">
-      <h1>OTP Validation</h1>
-      <p>This is your OTP:<strong class="strong"> # - # - # - #</strong></p>
+      <h1>OTP System</h1>
+      <div class="otp-div">
+        <div class="otp-inner">
+          <p class="otp-para">This is your OTP :</p>
+          <strong class="strong"> # - # - # - #</strong>
+        </div>
+      </div>
       <input
         type="text"
         name="otp"
@@ -18,7 +23,7 @@
       />
       <div class="btn-div">
         <button class="gen-btn">Generate OTP</button>
-        <button class="val-btn">Validation OTP</button>
+        <button class="val-btn">Validate OTP</button>
       </div>
     </div>
     <script src="logic.js"></script>
